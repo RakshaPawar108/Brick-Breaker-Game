@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Bootswatch Template -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Fontawesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" href="img/logo.jpg" />
+    <title>The Brick Breaker Game</title>
+  </head>
+  <body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand"><h3>The Brick-Breaker Game</h3></a>
+      </div>
+    </div>
+
+    <div>
+      <button
+        id="rules-btn"
+        class="btn rules-btn btn-info"
+        style="color: #000;"
+      >
+        Show Rules
+      </button>
+
+      <button id="play-btn" class="btn play-btn btn-info" style="color: #000;">
+        Start Game
+      </button>
+      <div id="rules" class="rules">
+        <h4>How to Play:</h4>
+        <p>Click on 'Start Game' to start the gameplay.</p>
+        <p>
+          Use your left and right arrow keys to move the paddle to bounce the
+          ball up and break the bricks.
+        </p>
+        <p>If you break all the bricks, you win!</p>
+        <p>If you miss the ball, you lose!</p>
+        <p>
+          Click 'Play Again' to reset the game and the score. Click 'Start Game'
+          again to begin the game.
+        </p>
+        <p>High Score will be retained.</p>
+        <button id="close-btn" class="btn btn-success" style="color: #000;">
+          Close
+        </button>
+      </div>
+
+      <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+
+    <!-- Container for final messages -->
+    <div class="popup-container" id="popup-container">
+      <div class="popup">
+        <h2 id="final-message"></h2>
+        <button class="btn btn-primary btn-lg" id="play-button">
+          Play Again
+        </button>
+      </div>
+    </div>
+
+    <footer
+      class="container-fluid fixed-bottom mt-5 p-3 text-center bg-primary"
+      style="font-size: 18px;"
+    >
+      <strong
+        ><i class="fa fa-code" style="margin-right: 5px;"> </i> with
+        <i
+          class="fa fa-heart"
+          style="margin-right: 5px; margin-left: 5px; color: red;"
+        >
+        </i>
+        by Raksha Pawar</strong
+      >
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
