@@ -8,3 +8,6 @@ Game Canvas and Animation is made using HTML5 Canvas API.
 * High score will be stored in local storage of your browser.
 
 **This game is not mobile responsive, therefore play it on a laptop for better experience.**
+
+### Screenshots
+
