@@ -11,3 +11,18 @@ Game Canvas and Animation is made using HTML5 Canvas API.
 
 ### Screenshots
 
+Game Screen
+
+![Game Screen](Brick-Breaker/screenshots/Game_Screen.jpg)
+
+Rules Sidebar
+
+![Rules](Brick-Breaker/screenshots/Rules_Sidebar.jpg)
+
+Gameplay
+
+![Gameplay Screen](Brick-Breaker/screenshots/Gameplay.jpg)
+
+Lost
+
+![Lost](Brick-Breaker/screenshots/Lost.jpg)
